@@ -1,0 +1,113 @@
+/* Estilos generales */
+.app-container {
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Estilos para las cajas de puntaje */
+.score-box {
+  background-color: #576574;
+  padding: 10px 20px;
+  border-radius: 10px;
+  min-width: 100px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+
+.score-label {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-bottom: 5px;
+}
+
+.score-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Estilos para los botones de opción */
+.option-button {
+  padding: 15px 20px;
+  margin: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.options-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+/* Estilo para el botón de sonido */
+.sound-button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-size: 1rem;
+  background-color: #6c5ce7;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Animación de carga */
+.loading-spinner {
+  border: 5px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  border-top: 5px solid #54a0ff;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Efecto de confeti */
+.confetti-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+.confetti {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  opacity: 0;
+  animation: confetti-fall 3s ease-in-out forwards;
+}
+
+@keyframes confetti-fall {
+  0% {
+    transform: translateY(-100px) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+/* Efectos de hover para pantallas táctiles */
+@media (hover: none) {
+  .option-button, .sound-button {
+    transform: none !important;
+  }
+}
