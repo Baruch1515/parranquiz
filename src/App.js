@@ -5,8 +5,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import "./styles.css"; // Archivo CSS para estilos adicionales
 
 function App() {
-  const YOUTUBE_API_KEY = "AIzaSyBDN3aE6NXB386A90cwUfL_lUbxLFBlk5U";
-  const PLAYLIST_ID = "PLUJpT9_IGkWjGbHwyyVal_ur3MNg0f5Fl";
+  const YOUTUBE_API_KEY = ""; //AQUI PONES TU API DE GOOGLE CONSOLE
+  const PLAYLIST_ID = ""; //AQUI PONES EL ID DE TU PLAYLIST DE YOUTUBE
 
   const [videos, setVideos] = useState([]);
   const [videoActual, setVideoActual] = useState(null);
