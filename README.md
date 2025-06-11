@@ -7,18 +7,6 @@ Un juego interactivo para adivinar canciones populares usando fragmentos de vide
 [![GitHub stars](https://img.shields.io/github/stars/Baruch1515/parranquiz)](https://github.com/Baruch1515/parranquiz/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/Baruch1515/parranquiz)](https://github.com/Baruch1515/parranquiz/issues)
 
-## ✨ Características
-
-- 🎬 Reproductor de YouTube integrado
-- 🏆 Sistema de puntuación con combos
-- 🎉 Efectos de confeti al acertar
-- 📱 Diseño responsive
-- 🌈 Interfaz colorida y animada
-
-## 🚀 Demo
-
-Prueba el juego aquí: [https://baruch1515.github.io/parranquiz](https://baruch1515.github.io/parranquiz)
-
 ## 🛠 Tecnologías
 
 <p align="left">
@@ -49,27 +37,5 @@ REACT_APP_PLAYLIST_ID=tu_id_de_playlist
 npm start
 ```
 
-## 🖼 Capturas
 
-<div align="center">
-  <img src="screenshots/gameplay.png" width="45%" alt="Pantalla de juego">
-  <img src="screenshots/win.png" width="45%" alt="Pantalla de acierto">  
-</div>
 
-## 🤝 Cómo contribuir
-
-1. Haz fork al proyecto
-2. Crea tu rama (`git checkout -b feature/nueva-funcion`)
-3. Haz commit de tus cambios (`git commit -am 'Agrega nueva función'`)
-4. Haz push a la rama (`git push origin feature/nueva-funcion`)
-5. Abre un Pull Request
-
-## 📄 Licencia
-
-Este proyecto está bajo la licencia MIT. Ver [LICENSE](LICENSE) para más detalles.
-
----
-
-<div align="center">
-  Hecho con ❤️ por <a href="https://github.com/Baruch1515">Baruch1515</a>
-</div>
