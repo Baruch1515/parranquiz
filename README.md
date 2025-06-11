@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# 🎵 Parranda Quiz - Juego de Adivinanza Musical 🎶
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Un juego interactivo para adivinar canciones populares usando fragmentos de videos de YouTube.
 
-In the project directory, you can run:
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/Baruch1515/parranquiz)](https://github.com/Baruch1515/parranquiz/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/Baruch1515/parranquiz)](https://github.com/Baruch1515/parranquiz/issues)
 
-### `npm start`
+## ✨ Características
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🎬 Reproductor de YouTube integrado
+- 🏆 Sistema de puntuación con combos
+- 🎉 Efectos de confeti al acertar
+- 📱 Diseño responsive
+- 🌈 Interfaz colorida y animada
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Demo
 
-### `npm test`
+Prueba el juego aquí: [https://baruch1515.github.io/parranquiz](https://baruch1515.github.io/parranquiz)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠 Tecnologías
 
-### `npm run build`
+<p align="left">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
+  <img src="https://img.shields.io/badge/YouTube_API-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube API">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion">
+</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📦 Instalación
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clona el repositorio:
+```bash
+git clone https://github.com/Baruch1515/parranquiz.git
+```
+2. Instala dependencias:
+```bash
+cd parranquiz
+npm install
+```
+3. Configura tu API key de YouTube en `.env`:
+```env
+REACT_APP_YOUTUBE_API_KEY=tu_api_key_aquí
+REACT_APP_PLAYLIST_ID=tu_id_de_playlist
+```
+4. Inicia la app:
+```bash
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🖼 Capturas
 
-### `npm run eject`
+<div align="center">
+  <img src="screenshots/gameplay.png" width="45%" alt="Pantalla de juego">
+  <img src="screenshots/win.png" width="45%" alt="Pantalla de acierto">  
+</div>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🤝 Cómo contribuir
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Haz fork al proyecto
+2. Crea tu rama (`git checkout -b feature/nueva-funcion`)
+3. Haz commit de tus cambios (`git commit -am 'Agrega nueva función'`)
+4. Haz push a la rama (`git push origin feature/nueva-funcion`)
+5. Abre un Pull Request
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📄 Licencia
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Este proyecto está bajo la licencia MIT. Ver [LICENSE](LICENSE) para más detalles.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div align="center">
+  Hecho con ❤️ por <a href="https://github.com/Baruch1515">Baruch1515</a>
+</div>
